@@ -1,0 +1,2 @@
+carpet setDefault language zh_cn
+carpet setDefault creativeNoClip true
