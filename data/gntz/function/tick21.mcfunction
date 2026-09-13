@@ -1,0 +1,1 @@
+execute as @a[nbt={Dimension:"minecraft:the_nether"}] if items entity @s armor.head minecraft:piglin_head at @s as @e[type=minecraft:piglin,distance=1..9] run function gntz:feature/head_piglin
