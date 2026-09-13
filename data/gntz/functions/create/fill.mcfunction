@@ -1,0 +1,1 @@
+gamerule commandModificationBlockLimit 999999999

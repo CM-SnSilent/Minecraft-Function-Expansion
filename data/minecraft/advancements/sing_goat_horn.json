@@ -1,0 +1,24 @@
+{
+    "hidden": true,
+    "criteria": {
+        "sing_goat_horn": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": ["goat_horn"],
+                    "components": {
+                        "instrument": "minecraft:sing_goat_horn"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+          "sing_goat_horn"
+        ]
+    ],
+    "rewards": {
+        "function": "gntz:advan/sing_goat_horn"
+    }
+}

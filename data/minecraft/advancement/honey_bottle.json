@@ -1,0 +1,21 @@
+{
+    "hidden": true,
+    "criteria": {
+        "honey_bottle": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["honey_bottle"]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+          "honey_bottle"
+        ]
+    ],
+    "rewards": {
+        "function": "gntz:advan/honey_bottle"
+    }
+}

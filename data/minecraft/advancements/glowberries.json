@@ -1,0 +1,21 @@
+{
+    "hidden": true,
+    "criteria": {
+        "glowberries": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["glow_berries"]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+          "glowberries"
+        ]
+    ],
+    "rewards": {
+        "function": "gntz:advan/glowberries"
+    }
+}
