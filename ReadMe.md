@@ -8,7 +8,7 @@
 【蜂蜜瓶】饮用去除自身的反胃与饥饿效果  
 【磁石】放在第一格自动捡起五格内掉落物  
 【寻觅山羊角】吹响给予所有山羊发光五分钟  
-【歌颂山羊角】吹响给予20格内铁傀儡力量2两分钟。
+【歌颂山羊角】吹响给予20格内铁傀儡力量2两分钟  
 \
 无需OP权限，set后的数字填未提到的数字关闭：\
 【计时器】/trigger gntz.time.t set 1  
@@ -17,7 +17,7 @@
 【去世榜】/trigger gntz.score.t set 3  
 【击杀榜】/trigger gntz.score.t set 4  
 【极限生存】/trigger gntz.adven.t set 1  
-【闪电苦力怕】/trigger gntz.adven.t set 2。
+【闪电苦力怕】/trigger gntz.adven.t set 2  
 \
 将物品扔同一格触发。请勿可燃方块附近使用，会召唤闪电：\
 【玩家发光】指南针+末影之眼=全员发光  
@@ -29,10 +29,10 @@
 【附魔金苹果】扔在装满水的炼药锅里且锅底下有点燃的萤火，金苹果+青金石块+不死图腾=附魔金苹果
 
 ## 问题与回答
-Q：如何使用
-A：将数据包放入你存档的【datapacks】文件夹里并重进存档
-路径：.minecraft\saves\你的存档\datapacks\
-
+Q：如何使用\
+A：将数据包放入你存档的【datapacks】文件夹里并重进存档\
+路径：.minecraft\saves\你的存档\datapacks\  
+\
 Q：资料来源\
 A：https://zh.minecraft.wiki/  
 \
