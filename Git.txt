@@ -1,9 +1,9 @@
-cd /d %~dp0
-git init
-git remote add origin https://github.com/CM-SnSilent/Minecraft-Function-Expansion.git
+cd /d 
 
-git add .
-git commit -m "Git: Upload All Files"
+D:\Programs\Code\Git\cmd\git.exe init
+D:\Programs\Code\Git\cmd\git.exe remote add origin https://github.com/CM-SnSilent/Minecraft-Function-Expansion.git
 
-git push -u origin main
-git push -f origin main
+D:\Programs\Code\Git\cmd\git.exe add .
+D:\Programs\Code\Git\cmd\git.exe commit -m "Git: Upload All Files"
+
+D:\Programs\Code\Git\cmd\git.exe push -f origin main
