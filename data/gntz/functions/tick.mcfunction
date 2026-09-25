@@ -25,7 +25,7 @@ execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:ender_eye"}}] as @e[t
 function gntz:tick21
 execute as @a[nbt={Inventory:[{Slot:103b,id:"minecraft:piglin_head"}],Dimension:"minecraft:the_nether"}] at @s as @e[type=minecraft:piglin,distance=1..9] run function gntz:feature/head_piglin
 
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:item_frame"}}] as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}},id:"minecraft:potion"}},distance=0..1] run function gntz:feature/itemframe_16
+execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:item_frame"}}] as @e[type=minecraft:item,limit=1,nbt={Item:{id:"minecraft:potion",tag:{Potion:"minecraft:long_invisibility"}}},distance=0..1] run function gntz:feature/itemframe_16
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:item_frame"}}] as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:potion_contents":{potion:"minecraft:long_invisibility"}},id:"minecraft:potion"}},distance=0..1] run function gntz:feature/itemframe_20
 
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:emerald_block"}}] as @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}},distance=0..1] run function gntz:feature/head_16
